@@ -11462,4 +11462,9 @@ body {
   background-image: none;
   margin: 0px;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
 /*# sourceMappingURL=categorycontent.css.map */
