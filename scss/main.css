@@ -11458,6 +11458,10 @@ fieldset:disabled .btn {
   }
 }
 
+body {
+  background-image: none;
+}
+
 * {
   margin: 0;
   padding: 0;
