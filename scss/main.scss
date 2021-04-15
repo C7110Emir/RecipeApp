@@ -1,0 +1,37 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "_variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("..//images/low-opacity-clubsandwich-toast-bread-tomato-low-opacity-clubsandwich-toast-bread-tomato-background-158828111.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.navbar > .container-fluid{
+    justify-content: $justifyContent;
+}
+.navbar-brand{
+    font-size: $fontSize;
+    font-style: $fontStyle;
+}
+.card{
+    width: 15rem; 
+    display: inline-block;
+    margin-left: 15em;
+    margin-top: 10em;
+    width: 20em;
+    background-color:sandybrown;
+}
+#soupimg{
+    height:$mainimgheight
+}
+
+#saladimg{
+    height: $mainimgheight;
+
+}
