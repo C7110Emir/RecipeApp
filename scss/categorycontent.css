@@ -11464,7 +11464,10 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: white;
+}
+
+#middlelink:hover {
+  color: red;
 }
 /*# sourceMappingURL=categorycontent.css.map */
