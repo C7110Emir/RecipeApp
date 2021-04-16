@@ -9,7 +9,7 @@
     
 </head>
 <body>
-    <nav aria-label="breadcrumb" class="d-flex align-items-center bg-body" id="navbarinspecont">
+    <nav aria-label="breadcrumb" class="d-flex align-items-center bg-body just" id="navbarinspecont">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.html">Home</a></li>
           <li class="breadcrumb-item"><a href="categorycontent.html">Pick One To Cook</a></li>
@@ -40,7 +40,47 @@
           </div>
 
     </div>
-    
+    <div class= "container">
+      <div class="row mt-4">
+        <div class="card text-white bg-success mb-3" style="max-width: 18rem;margin-left: 250px;">
+          <div class="card-header">Description</div>
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card text-dark bg-info mb-3"style="max-width: 18rem; margin-left: 250px;">
+          <div class="card-header">Cooking Time</div>
+          <div class="card-body">
+            <h1 class="card-title">Info card title</h1>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="container-sm w-25 mt-4 h-20">
+      <div class="d-flex mt-5">
+        <button class="btn btn-primary" style="margin-right:5rem;"type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Ingredients</button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel">Ingredients</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+          </div>
+        </div>
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" style="margin-left: 10rem;">Preperation</button>
+
+        <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Preperation</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body small">
+            ...
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src ="recipe.ts"></script>
 </body>
