@@ -11470,4 +11470,18 @@ a {
 #middlelink:hover {
   color: red;
 }
+
+nav {
+  font-size: 1.5rem;
+  height: 60px;
+}
+
+#homelink {
+  text-decoration: none;
+  color: red;
+}
+
+ol {
+  margin: 0px;
+}
 /*# sourceMappingURL=categorycontent.css.map */
