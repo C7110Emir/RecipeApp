@@ -1,9 +1,8 @@
-import * as data from "./api.json"
-
-
-const mainsalads: HTMLElement = document.getElementById('saladsbutton');
-const maindesserts: HTMLElement = document.getElementById('dessertsbutton');
-const mainsoups:HTMLElement = document.getElementById("soupsbutton");
+import data from "./api.js"
+console.log(data)
+const mainsalads = document.getElementById('saladsbutton');
+const maindesserts= document.getElementById('dessertsbutton');
+const mainsoups = document.getElementById("soupsbutton");
 
 mainsalads.addEventListener("click",saladcategoryclick)
 maindesserts.addEventListener("click",dessertcategoryclick)

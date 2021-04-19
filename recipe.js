@@ -1,4 +1,5 @@
-import * as data from "./api.json";
+import data from "./api.js";
+console.log(data);
 var mainsalads = document.getElementById('saladsbutton');
 var maindesserts = document.getElementById('dessertsbutton');
 var mainsoups = document.getElementById("soupsbutton");
