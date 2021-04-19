@@ -1,5 +1,6 @@
 {
   "name": "bootstrap5",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.0.0-beta3"
+    "bootstrap": "^5.0.0-beta3",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.0.0"
   }
 }
