@@ -49,3 +49,28 @@ else if(sessionStorage.clickvalue == 3){
     (document.getElementById("thirdcarddescription") as HTMLElement).innerHTML = data["soups"][2].description;
     (document.getElementById("thirdcardbottom") as HTMLElement).innerHTML = data["soups"][2].preptime;
 }
+
+
+
+const firstcnt = document.getElementById('firstcontent')
+const secondcnt = document.getElementById("secondcontent")
+const thirdcnt = document.getElementById("thirdcontent")
+
+
+firstcnt.addEventListener("click",firstcontentclick)
+secondcnt.addEventListener("click",secondcontentclick)
+thirdcnt.addEventListener("click",thirdcontentclick)
+
+
+function firstcontentclick(){
+    window.sessionStorage.setItem("contentclick","1")
+    window.location.href = "specificcontent.html"
+}
+function secondcontentclick(){
+    window.sessionStorage.setItem("contentclick","2")
+    window.location.href = "specificcontent.html"
+}
+function thirdcontentclick(){
+    window.sessionStorage.setItem("contentclick","3")
+    window.location.href = "specificcontent.html"
+}
