@@ -1,1 +1,1 @@
-import data from "./api.json"
+import data from "./api.js"
