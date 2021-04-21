@@ -86,7 +86,7 @@ else if(sessionStorage.clickvalue == 3){
         (document.getElementById("descriptioncard") as HTMLElement).innerHTML = data["soups"][2].description;
         (document.getElementById("servingscard") as HTMLElement).innerHTML = data["soups"][2].Servings;
         (document.getElementById("ingredientsbody") as HTMLElement).innerHTML = data["soups"][2].ingredients;
-        (document.getElementById("preperationbody") as HTMLElement).innerHTML = data["soups"][2].preparation
+        (document.getElementById("preperationbody") as HTMLElement).innerHTML = data["soups"][2].preparation;
     }
 }
 
