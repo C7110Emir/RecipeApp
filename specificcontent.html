@@ -21,13 +21,13 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/culinary-lingo-688005624.jpg" class="d-block w-100 contentimg" alt="...">
+                <img id="carouselfirstimg" src="./images/culinary-lingo-688005624.jpg" class="d-block w-100 contentimg" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./images/easy-french-onion-soup-3062131-hero-01-2a93bd3c60084db5a8a8e1039c0e0a2f.jpg" class="d-block w-100 contentimg" alt="...">
+                <img id="carouselsecondimg"src="./images/easy-french-onion-soup-3062131-hero-01-2a93bd3c60084db5a8a8e1039c0e0a2f.jpg" class="d-block w-100 contentimg" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./images/Mediterranean Salad.jpg" class="d-block w-100 contentimg" alt="...">
+                <img id="carouselthirdimg"src="./images/Mediterranean Salad.jpg" class="d-block w-100 contentimg" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -46,13 +46,13 @@
         <div class="card text-white bg-success mb-3" style="max-width: 18rem;margin-left: 250px;">
           <div class="card-header">Description</div>
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p id="descriptioncard" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
         <div class="card text-dark bg-info mb-3"style="max-width: 18rem; margin-left: 250px;">
-          <div class="card-header">Cooking Time</div>
+          <div class="card-header">Servings</div>
           <div class="card-body">
-            <h1 class="card-title">Info card title</h1>
+            <h1 id="servingscard"class="card-title">Info card title</h1>
           </div>
         </div>
       </div>
@@ -66,7 +66,8 @@
             <h5 id="offcanvasRightLabel">Ingredients</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <div class="offcanvas-body">
+          <div id="ingredientsbody" class="offcanvas-body">
+            
           </div>
         </div>
         <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" style="margin-left: 10rem;">Preparation</button>
@@ -76,8 +77,8 @@
             <h5 class="offcanvas-title" id="offcanvasBottomLabel">Preparation</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <div class="offcanvas-body small">
-            ...
+          <div id="preperationbody" class="offcanvas-body small display-5">
+            
           </div>
         </div>
       </div>
