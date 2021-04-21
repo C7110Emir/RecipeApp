@@ -1,5 +1,4 @@
 import data from "./api.js";
-console.log(data)
 
 if (sessionStorage.clickvalue == 1){
     //first content
